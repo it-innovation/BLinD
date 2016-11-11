@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+<!--
+/////////////////////////////////////////////////////////////////////////
+//
+// (c) University of Southampton IT Innovation Centre, 2016
+//
+// Copyright in this software belongs to University of Southampton
+// IT Innovation Centre of Gamma House, Enterprise Road,
+// Chilworth Science Park, Southampton, SO16 7NS, UK.
+//
+// This software may not be used, sold, licensed, transferred, copied
+// or reproduced in whole or in part in any manner or form or in or
+// on any media by any person other than in accordance with the terms
+// of the Licence Agreement supplied with the software, or otherwise
+// without the prior written consent of the copyright owners.
+//
+// This software is distributed WITHOUT ANY WARRANTY, without even the
+// implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+// PURPOSE, except where stated in the Licence Agreement supplied with
+// the software.
+//
+//      Created By :            Stefanie Wiegand
+//      Created Date :          2016-05-23
+//      Created for Project :   REVEAL
+//
+/////////////////////////////////////////////////////////////////////////
+-->
+		<title>Bias dashboard</title>
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div id="header">
+				<div id="nav">
+					<img id="logo" src="images/blind-logo.png" alt="BLinD" height="180"/>
+					<h1>BLinD</h1>
+					<hr />
+					<p>Find <strong>B</strong>ias using <strong>Lin</strong>ked Open <strong>D</strong>ata</p>
+					<div id="search">
+						<form action="index.html" method="get">
+							<input type="text" name="search" placeholder="Search for person..." />
+							<button id="searchbutton" type="submit">Find bias</button>
+						</form>
+					</div>
+					<div id="examples">
+						<p>Examples:</p>
+					</div>
+				</div>
+				<div id="infobox">
+					<h2 id="searchsubject"></h2>
+					<hr />
+				</div>
+			</div>
+			<hr />
+			<div id="viz">
+				<div id="tabs">
+					<ul class="rainbow" title="All the information combined">
+						<li class="header">Overview</li>
+						<li id="cloudAll" class="button"><a>Give me everything!</a></li>
+					</ul>
+					<ul class="self">
+						<li class="header">Self</li>
+						<li id="cloudSelf" class="button"><a>Graph</a></li>
+					</ul>
+					<ul class="lists">
+						<li class="header">Lists</li>
+						<li id="listList" class="button"><a>List</a></li>
+						<li id="barList" class="button"><a>Bar</a></li>
+						<li id="pieList" class="button"><a>Pie</a></li>
+						<li id="cloudList" class="button"><a>Cloud</a></li>
+					</ul>
+					<ul class="network">
+						<li class="header">Network</li>
+						<li id="pieNetwork" class="button"><a>Pie</a></li>
+						<li id="cloudNetwork" class="button"><a>Cloud</a></li>
+						<li id="graphNetwork" class="button"><a>Graph</a></li>
+					</ul>
+				</div>
+				<div id="chart"></div>
+			</div>
+			<div id="footer">
+				<p>&copy;2016 IT Innovation Centre. Logo original graphic by <a href="http://www.vecteezy.com" target="_blank">Vecteezy</a>,
+					social icons by <a href="http://vervex.ca" target="_blank">Tina Mailhot-Roberge</a>.</p>
+			</div>
+		</div>
+
+		<script src="js/lib/jquery.min.js"></script>
+		<script src="js/lib/d3.v3.min.js" charset="utf-8"></script>
+		<script src="js/lib/d3.layout.cloud.js"></script>
+		<script src="js/lib/webfont.js"></script>
+		<script src="js/charts.js"></script>
+		<script src="js/utils.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
