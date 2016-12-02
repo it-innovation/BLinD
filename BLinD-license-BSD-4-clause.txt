@@ -11,14 +11,14 @@ modification, are permitted provided that the following conditions are met:
    notice, this list of conditions and the following disclaimer in the
    documentation and/or other materials provided with the distribution.
 
-3. All advertising and publication materials containing results from the use of this dataset
+3. All advertising and publication materials containing results from the use of this software
    must acknowledge the University of Southampton IT Innovation Centre
 
 4. Neither the name of the University of Southampton IT Innovation Centre nor the
    names of its contributors may be used to endorse or promote products
    derived from this dataset without specific prior written permission.
 
-THIS DATASET IS PROVIDED BY University of Southampton IT Innovation Centre ''AS IS'' AND ANY
+THIS SOFTWARE IS PROVIDED BY University of Southampton IT Innovation Centre ''AS IS'' AND ANY
 EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
 WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
 DISCLAIMED. IN NO EVENT SHALL University of Southampton IT Innovation Centre BE LIABLE FOR ANY
@@ -27,4 +27,4 @@ DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
 LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-DATASET, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
