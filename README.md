@@ -13,7 +13,7 @@ The overview uses a word cloud to visualise terms related to the entity, using a
 
 (2) Double click the index.html file after unzipping to open it in a browser (Chrome or Firefox on Linux or Mac supported, others configurations may work but are untested)
 
-(4) Enter a name and click 'find bias' (e.g. 'Donald Trump') - note that it's case-sensitive
+(3) Enter a name and click 'find bias' (e.g. 'Donald Trump') - note that it's case-sensitive
 - you can find an entity's URI through Wikipedia. Names are typically are capitalized and use an underscores rather than spaces, e.g. Bernie_Sanders
 - hover on tag cloud words to see the DBpedia linked data that connects this word to the selected person
 - click on tag cloud words to open DBpedia linked data in the web browser as a separate tab
@@ -27,7 +27,7 @@ The overview uses a word cloud to visualise terms related to the entity, using a
   * The pie chart is an alternative to the bar chart ![BLinD pie chart](/images/screenshots/pie.png)
   * The graph view shows how this entity is connected to religious or political views via other entities. You can expand the graph bit by bit to discover connections you were previously unaware of.![BLinD graph view](/images/screenshots/graph.png)
 
-(5) Read the DBpedia evidence and come to your own informed decision about the selected persons potential biases
+(4) Read the DBpedia evidence and come to your own informed decision about the selected persons potential biases
 
 # License
 BSD (included in release archive)
